@@ -38,6 +38,8 @@ loginButton.addEventListener("click", function() {
         return alert("Successfully loged in!");
       }
     }
+        input1.value = "";
+        input2.value = "";
     return alert("Try again!");
     }
 });

@@ -41,7 +41,7 @@ function login() {
     return alert("Please write your username and password");
   } else {
     for (var i = 0; i < users.length; i++) {
-      if (input1.value.toLowerCase() === users[i].username && input2.value.toLowerCase() === users[i].password) {
+      if (input1.value === users[i].username && input2.value === users[i].password) {
         input1.value = "";
         input2.value = "";
         return alert("Successfully loged in!");
